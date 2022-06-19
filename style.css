@@ -127,7 +127,7 @@ body {
 .dropdown:hover .dropbtn {background-color: gray;}
 
 .right-section {
-color: white;
+color: black;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -136,9 +136,6 @@ margin-top: 5px;
 cursor: pointer;
 }
 
-.uName, pWord {
-  color: black;
-}
 
 .flexbox-container-ads {
   margin-top: 100px;
