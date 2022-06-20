@@ -230,3 +230,8 @@ h2 {
   margin-top: 100px;
 }
 
+.wheelOfFortune {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
