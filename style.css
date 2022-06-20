@@ -136,6 +136,12 @@ margin-top: 5px;
 cursor: pointer;
 }
 
+.signIn {
+  background-color: gray;
+  color: white;
+  font-size: 16px;
+}
+
 
 .flexbox-container-ads {
   margin-top: 100px;
@@ -183,6 +189,10 @@ cursor: pointer;
 
 .flexbox-item:hover {
   transform: scale(1.2);
+}
+
+.productImg {
+  width: 220px;
 }
 
 .spin {
