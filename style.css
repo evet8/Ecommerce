@@ -206,3 +206,7 @@ cursor: pointer;
 h2 {
   text-align: center;
 }
+
+.justify-content-around {
+  margin-right: 70px;
+}
