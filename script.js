@@ -42,3 +42,6 @@ function updateCountdown() {
 	time--;
 	time = time < 0 ? 0 : time; 
 }
+
+
+

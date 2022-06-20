@@ -1,0 +1,190 @@
+body {
+  font-family: Roboto, Arial;
+  background-color: white;
+}
+
+
+.header {
+ 
+ 
+ height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  background-color: black;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray; 
+  
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.dwlogo {
+  height: 80px;
+  margin-left: 24px;
+  text-align: center;
+}
+.dealsonwheels {
+  color: red;
+  background-color: black;
+  display: flex;
+
+}
+
+.middle-section {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid silver;
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+
+.search-bar::placeholder {
+  font-size: 16px;
+}
+
+.search-button {
+  height: 36px;
+  width: 66px;
+  background-color: gainsboro;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  margin-left: -1px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+
+.search-icon {
+  height: 25px;
+}
+
+.dropbtn {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: gray;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: gray;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: gray;}
+
+.right-section {
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 40px;
+margin-top: 5px;
+cursor: pointer;
+}
+
+.signIn {
+  background-color: gray;
+  color: white;
+  font-size: 16px;
+}
+
+.flexbox-container-ads {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.flexbox-ads {
+  display: flex;
+  justify-content: center;
+}
+
+.bslogo {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+
+
+.flexbox-ads:hover {
+  cursor: pointer;
+}
+
+
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox-item {
+  margin: 20px;
+}
+
+.flexbox-item:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.flexbox-item  {
+  transition: all 500ms ease-in-out;
+}
+
+.flexbox-item:hover {
+  transform: scale(1.2);
+}
+
+
+.productImg {
+  width: 220px;
+}

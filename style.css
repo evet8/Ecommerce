@@ -185,4 +185,24 @@ cursor: pointer;
   transform: scale(1.2);
 }
 
+.spin {
+  position: absolute;
+  right: 10%;
+  bottom: 12%;
+  font-size: 18px;
+}
 
+.spin:hover {
+  color: gray;
+}
+
+.wheel {
+  position: relative;
+  margin: auto;
+  width: 504px;
+}
+
+
+h2 {
+  text-align: center;
+}
