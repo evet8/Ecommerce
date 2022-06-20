@@ -218,16 +218,11 @@ h2 {
   text-align: center;
 }
 
-.cars {
+.cars, .suv {
   display: flex;
   justify-content: center;
   margin-top: 100px;
-}
-
-.suv {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .wheelOfFortune {
