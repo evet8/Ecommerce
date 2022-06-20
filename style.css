@@ -143,6 +143,7 @@ cursor: pointer;
 }
 
 
+
 .flexbox-container-ads {
   margin-top: 100px;
   display: flex;
@@ -215,4 +216,10 @@ cursor: pointer;
 
 h2 {
   text-align: center;
+}
+
+.cars {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
