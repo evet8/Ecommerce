@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Deals on Wheels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <header class="header">
+      <div class="left-section">
+        <a href="index.html">
+        <img class="dwlogo" src="pics/dwlogo.jpg"></a>
+        <a class="dealsonwheels" href="index.html">Deals on Wheels</a>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <a href="category.html"><button class="search-button">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <div class="tooltip">Search</div>
+        </button></a>
+        <div class="dropdown">
+          <button class="dropbtn">Shop by vehicle type</button>
+          <div class="dropdown-content">
+            <a href="motorcycle category.html">Motorcycle</a>
+            <a href="car.html">Sedan</a>
+            <a href="#">Pickup/Light Trucks</a>
+            <a href="SUV.html">SUV</a>
+          </div>
+        </div>
+      </div>
+      <div class="right-section">
+        <form>
+          <input type="text" id="username" placeholder="Username">
+          <input type="password" id="password" placeholder="Password">
+          <button class="signIn" type="button" onclick="getInfo()">Sign In</button>
+        </form>
+        </div>
+      </div>
+    </header> 
+
+    <main>
+
+      <div class="flexbox-container-ads">
+        <div class="flexbox-ads flexbox-ads-1 my-5">
+          <h2>Check our Brands for Bicycle</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-around mb-5">
+          <div class="col-3">
+            <img src="./pics/pirelli logo.png" alt="Pirelli Logo" width="400px" height="100px">
+          </div>
+          <div class="col-3">
+            <img src="./pics/Bontrager Logo.png" alt="Bontrager Logo" width="400px" height="100px">
+          </div>
+          <div class="col-3">
+            <img src="./pics/continental logo.jpg" alt="Continental Logo" width="400px" height="100px">
+          </div>
+        </div>
+      </div>
+
+      <div class="flexbox-container my-5 justify-content-evenly">
+        <div class="flexbox-item flexbox-item-7">
+          <img src="pics/Pirelli P ZERO Race Road Tire.jpg" alt="tire picture">
+          <p>Pirelli P Zero Race Road Tire</p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div class="price">PHP 4,299</div>
+        </div>
+  
+        <div class="flexbox-item flexbox-item-8">
+          <img src="pics/Pirelli Cinturato Gravel H Tire.jpg" alt="tire picture">
+          <p>Pirelli Cinturato Gravel H Tire</p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+          <div class="price">PHP 3,999</div>
+        </div>
+  
+        <div class="flexbox-item flexbox-item-9">
+          <img src="pics/Pirelli Scorpion XC M MTB Tire.jpg" alt="tire picture">
+          <p>Pirelli Scorpion XC M MTB Tire</p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </div>
+          <div class="price">PHP 4,199</div>
+        </div>
+      </div>
+  
+      <div class="flexbox-container my-5 justify-content-evenly">
+        <div class="flexbox-item flexbox-item-10">
+          <img src="pics/BontragerE6HardCaseLightReflective.jpg" alt="tire picture">
+          <p>Bontrager E6 Hard Case Light</p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div class="price">PHP 2,399</div>
+        </div>
+  
+        <div class="flexbox-item flexbox-item-11">
+          <img src="pics/Bontrager_Hodag_Tire.jpg" alt="tire picture">
+          <p>Bontrager Hodag Fat Bike Tire</p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+          <div class="price">PHP 6,499</div>
+        </div>
+  
+        <div class="flexbox-item flexbox-item-12">
+          <img src="pics/Bontrager R4 320 Handmade Clincher Road Tire.jpeg" alt="tire picture">
+          <p>Bontrager R4 320 Handmade</p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </div>
+          <div class="price">PHP 4,599</div>
+        </div>
+      </div>
+
+      <div class="flexbox-container my-5 justify-content-evenly">
+        <div class="flexbox-item flexbox-item-13">
+          <img src="pics/Continental Competition Tubular Road Tire.jpg" alt="tire picture">
+          <p>Continental Competition Tubular</p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div class="price">PHP 7,299</div>
+        </div>
+  
+        <div class="flexbox-item flexbox-item-14">
+          <img src="pics/ContinentalCrossKingProTectionBlackChiliMTBTire.jpg" alt="tire picture">
+          <p>Continental Cross King</p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+          <div class="price">PHP 4,499</div>
+        </div>
+  
+        <div class="flexbox-item flexbox-item-12">
+          <img src="pics/Continental Sprinter Tubular Road Tire.jpg" alt="tire picture">
+          <p>Continental Sprinter Tubular</p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </div>
+          <div class="price">PHP 4,099</div>
+        </div>
+      </div>
+        
+
+    </main>
+    <script src="script.js"> </script>
+  </body>
+</html>
