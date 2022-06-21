@@ -87,21 +87,21 @@ function getInfo() {
       }, 0)
   }());
 
-// owl carousel //
+// carousel //
 
-$('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav:true,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:3
-      },
-      1000:{
-          items:5
-      }
-  }
+const productContainers = [...document.querySelectorAll('.product-container')];
+const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+const preBtn = [...document.querySelectorAll('.pre-btn')];
+
+productContainers.forEach((item, i) => {
+    let containerDimensions = item.getBoundingClientRect();
+    let containerWidth = containerDimensions.width;
+
+    nxtBtn[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+    })
+
+    preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+    })
 })
