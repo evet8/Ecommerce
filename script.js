@@ -106,7 +106,7 @@ productContainers.forEach((item, i) => {
     })
 })
 
-// roullete //
+// roulette //
 
 var options = ["10% off", "5% off", "2% off", "15% off", "8% off", "3% off", "20% off", "2% off", "4% off", "7% off", "10% off", "5% off"];
 
