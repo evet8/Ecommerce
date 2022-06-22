@@ -532,3 +532,11 @@ h1 {
 	}
 }
 
+.justify-content-around {
+  margin-right: 70px;
+}
+
+.logo-size {
+  width: 400px;
+  height: 100px;
+}
